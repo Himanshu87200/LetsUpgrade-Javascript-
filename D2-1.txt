@@ -1,0 +1,16 @@
+<html> 
+  
+<head> 
+    <title> 
+        print current day and time 
+    </title> 
+</head> 
+  
+<body> 
+    <script type="text/javascript"> 
+        var name = window.prompt("Enter your name: ");
+      console.log("your name is:"+name)
+    </script> 
+</body> 
+  
+</html> 
