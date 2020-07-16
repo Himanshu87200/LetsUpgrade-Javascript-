@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Write a program which will take OS name and version from the user separated by a space. Then log the OS name and version on the console. </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>  
+        var a=prompt("Enter OS name")
+        var b=prompt("Enter OS version")
+      document.write('The OS name is '+ a + ' and version is ' + b + '</p>');
+        </script>        
+    </body>
+</html>
