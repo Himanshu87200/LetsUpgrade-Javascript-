@@ -1,0 +1,20 @@
+Question 1 : Explore and explain the various methods in console function Explain them Ex. console.log() console.warn().
+A Web console is a tool which is mainly used to log information associated with a web page. 
+console.log()-The console.log() is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.
+Syntax: console.log(A);
+		Parameters: It accepts a parameter which can be an array, an object or any message.
+		Return value: It returns the value of the parameter given
+
+console.warn()-Used to log warning message to the console. By default the warning message will be highlighted with yellow color.
+console.warn('This is a warning.');
+
+console.error()-Used to log error message to the console. Useful in testing of code. By default the error message will be highlighted with red color.
+console.error('This is a simple error');
+
+console.clear()-Used to clear the console. The console will be cleared, in case of Chrome a simple overlayed text will be printed like : ‘Console was cleared’ while in firefox no message is returned.
+console.clear(); 
+
+console.table()-This method allows us to generate a table inside a console. The input must be an array or an object which will be shown as a table.
+console.table({'a':1, 'b':2});
+
+ 

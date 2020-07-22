@@ -1,0 +1,68 @@
+Question 1 : Write the difference between var, let and const with code examples.
+In Javascript one can define variables using the keywords var, let or const.
+var a=10;
+let b=20;
+const PI=3.14;
+
+var: The scope of a variable defined with the keyword “var” is limited to the “function” within which it is defined. If it is defined outside any function, the scope of the variable is global.
+var is “function scoped”.
+Example: var a =10;
+Variable declarations are processed before the execution of the code.
+The scope of a JavaScript variable declared with var is its current execution context.
+The scope of a JavaScript variable declared outside the function is global.
+Consider the following code.
+
+function nodeSimplified(){
+
+  var a =10;
+
+  console.log(a);  // output 10
+
+  if(true){
+
+   var a=20;
+
+   console.log(a); // output 20
+
+  }
+
+  console.log(a);  // output 20
+
+}
+
+let: The scope of a variable defined with the keyword “let” or “const” is limited to the “block” defined by curly braces i.e. {} .
+“let” and “const” are“block scoped”.
+Example: let a =10;
+The let statement allows you to create a variable with the scope limited to the block on which it is used.
+It is similar to the variable we declare in other languages like Java, .NET, etc.
+Consider the following code.
+
+function nodeSimplified(){
+
+  let a =10;
+
+  console.log(a);  // output 10
+
+  if(true){
+
+   let a=20;
+
+   console.log(a); // output 20
+
+  }
+
+  console.log(a);  // output 10
+
+}
+
+const: The scope of a variable defined with the keyword “const” is limited to the block defined by curly braces. However if a variable is defined with keyword const, it cannot be reassigned.
+“const” cannot be re-assigned to a new value. However it CAN be mutated.
+Example: const a =10;
+
+function nodeSimplified(){
+
+  const MY_VARIABLE =10;
+
+  console.log(MY_VARIABLE);  //output 10 
+
+}
